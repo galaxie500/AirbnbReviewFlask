@@ -1,5 +1,4 @@
 def generate_location_points(all_points):
-    # two_year_review = pd.read_pickle("ts.pkl")
     # all_points = pd.read_pickle("timestamped_review.pkl")
     # loc_points = all_points[all_points.neighbourhood_group_cleansed == location]
     loc_points = all_points.drop(['neighbourhood_group_cleansed', 'listing_id'], axis=1)
